@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+#title{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+main{
+    background: #1A2238;
+    padding: 20px;
+}
+
+#sectionOne{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+    padding: 10px 40px;
+}
+#sectionTwo{
+    overflow-y: scroll;
+    display: grid;
+    margin-top: 12px;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    padding: 10px 40px;
+    align-items: start;
+    justify-content: center;
+}
+#secDiv1,#secDiv2,#secDiv3,#secDiv4{
+    width: 80%;
+    margin: auto;
+    padding: 16px 24px;
+    color: #ededed;
+    border-radius: 10px;
+}
+#secDiv1 h3,#secDiv2 h3,#secDiv3 h3,#secDiv4 h3{
+    font-size: 15px;
+    margin-bottom: 26px;
+}
+#secDiv1 h1,#secDiv2 h1,#secDiv3 h1,#secDiv4 h1{
+    font-size: 20px;
+}
+#secDiv1{
+    background-color: #FF6A3D;
+}
+#secDiv2{
+    background-color: #fada64;
+}
+#secDiv3{
+    background-color: #D48166;
+}
+#secDiv4{
+    background-color: #8e66d4;
+}
+#TableOne{
+    background-color: #1e3c8c;
+    color: whitesmoke;
+}
+#topTable{
+    grid-column: span 3;
+    height: 400px;
+    overflow-y: scroll;
+}
+#pieChart{
+    grid-column: span 2;
+
+}
